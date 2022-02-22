@@ -123,7 +123,7 @@ footer {
 
   /* Main body starts */
 
-  #main{
+  #section{
     background-color: rgb(241, 238, 238);
   }
 
@@ -383,3 +383,65 @@ footer {
   }
 }
 
+#programs{
+  align-items: center;
+  text-align: center;
+}
+
+#imagesMk16{
+  padding: 10px;
+}
+
+#mkoba16{
+  text-align: center;
+  text-decoration: solid;
+  color: #175dac;
+}
+
+#songName{
+  text-align: center;
+  text-decoration: solid;
+  color: #3bb97a;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#eventsSection{
+  background-color: #f0f4f8;
+}
+
+#events{
+  text-align: center;
+  text-decoration: solid;
+  color: #b93b99;
+}
+
+
+h4{
+  text-align: center;
+  text-decoration: solid;
+  color: #8b8eaf;
+}
+
+h5{
+  text-align: center;
+  text-decoration: solid;
+  color: #64656d;
+}
+
+#hist-paragraph{
+  text-align: center;
+
+}
